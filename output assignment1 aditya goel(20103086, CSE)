@@ -1,0 +1,23 @@
+# Aditya goel 20103086, CSE
+Enter first number = 12
+Enter second number = 14
+Enter third number = 16
+The average of numbers is  14.0
+Enter your gross income 1200000
+Enter total no. of dependents 5
+1175000
+587500.0
+Enter your SID 20103086
+Enter your name Aditya Goel 
+Enter your Gender M
+Enter your course name Comt Engg
+Enter your CGPA 9.5
+[20103086, ' Aditya Goel ', 'M', ' Comt Engg', 9.5]
+Enter marks 45
+Enter marks 34
+Enter marks 67
+Enter marks 48
+Enter marks 20
+[' 20', ' 34', ' 45', ' 48', ' 67']
+Part 'a' :  ['Red', 'Green', 'White', 'Pink', 'Yellow']
+Part 'b' : ['Red', 'Green', 'White', 'Purple', 'Yellow']
