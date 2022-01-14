@@ -1,3 +1,4 @@
+Aditya goel 20103086 adityagoel.btcse20@pec.edu.in
 # Question 1
 a = int(input("Enter first number = "))
 b = int(input("Enter second number = "))
