@@ -1,0 +1,69 @@
+# Aditya Goel, 20103086, CSE
+
+
+# Question 1
+input_str = "Python is a case sensitive language"
+print("Length of input_str = ",len(input_str))          #  Printing the length of the string
+print("The reverse of input_str = ",input_str[::-1])    #  Creating reversed string
+print(input_str[10:26])                                 # printing a part of string
+input_str2 = input_str.replace("a case sensitive","object orientation")
+print(input_str2)                                       # printing a new string
+substring = "a"
+index = input_str.find(substring)                          # Finding the index value of the given substring
+if index == -1 :
+    print("the substring was not found in the input")
+else :
+    print("The first occurence of substring = ",substring,index)  # printing index value
+input_str3 = input_str.replace(" ","")
+print(input_str3)                                             # printing string without space
+
+# Question 2
+name = input("Enter your name : ")
+sid = int(input("Enter your SID : "))
+depat_name = input("Enter the name of your department : ").upper()
+cgpa = float(input("Enter your CGPA : "))
+print("Hey,",name,"Here!")
+print("My SID is",sid)
+print("I am from",depat_name,"department and my CGPA =",cgpa)                # print information 
+
+# Question 3
+a = 56
+b = 10
+print(a&b)
+print(a|b)
+print(a^b)
+print(a<<2,b<<2)
+print(a<<2,b>>4)
+
+# Question 4                                                                finding largest number
+No_1 = int(input("Enter first number = " ))                   
+No_2 = int(input("Enter second number = " ))
+No_3 = int(input("Enter third number = " ))
+if No_1 > No_2 :
+    if No_2 > No_3:                                             
+        print("The largest number =",No_1)
+    elif No_1 > No_3:
+        print("The largest number =",No_1)
+elif No_2 > No_3:
+    print("The largest number =",No_2)
+else:
+    print("The largest number =",No_3)
+
+# Question 5
+inputed_str = input("Enter the line ")
+if "name" in inputed_str:
+    print("Yes")
+else:
+    print("No")
+
+# Question 6                                                                          finding whether a triangle can be formed
+x = int(input("Enter the length of first side "))
+y = int(input("Enter the length of second side "))                        
+z = int(input("Enter the length of third side "))
+if x>0 and y>0 and z>0 :
+    if x+y>z and y+z>x and z+x>y :
+        print("Yes,It can form a triangle ")
+    else:
+        print("No,IT can not form a triangle")
+else:
+    print("No,IT can not form a triangle")
